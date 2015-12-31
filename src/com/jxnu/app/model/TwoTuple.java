@@ -1,4 +1,4 @@
-package com.jxnu.app;
+package com.jxnu.app.model;
 
 /**
  * TwoTuple.java
