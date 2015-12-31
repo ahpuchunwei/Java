@@ -1,4 +1,4 @@
-package com.alibaba.util;
+package com.jxnu.app;
 
 /**
  * TwoTuple.java
