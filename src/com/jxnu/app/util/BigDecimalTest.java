@@ -7,6 +7,7 @@ import java.math.BigDecimal;
  */
 public class BigDecimalTest {
     public static void main(String[] args) throws Exception {
+
         double d = 29.0 * 0.01;
         System.out.println(d);
         System.out.println(d * 100);
