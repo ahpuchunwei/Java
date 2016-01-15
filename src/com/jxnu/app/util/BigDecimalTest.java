@@ -25,6 +25,7 @@ public class BigDecimalTest {
         a.add(b);
         System.out.println("a plus b is : " + a);
 
+        System.out.print(1/0);
 
         //需要使用String初始化对象
         BigDecimal x = new BigDecimal("500000000.00");
@@ -32,6 +33,7 @@ public class BigDecimalTest {
         BigDecimal z = x.multiply(y);
         System.out.println(">>>>>>>>>> "+z);
         //>>>>>>>>>> 300000000.000
+
 
         BigDecimal x2 = new BigDecimal(500000001);
         BigDecimal y2 = new BigDecimal(0.6);

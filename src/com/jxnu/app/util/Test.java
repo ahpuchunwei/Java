@@ -5,6 +5,6 @@ package com.jxnu.app.util;
  */
 public class Test {
     public static void main(String[] args) throws Exception {
-        System.out.print("test");
+        System.out.print("NoTranscationTestStringMessage 中文".getBytes("UTF-8"));
     }
 }
