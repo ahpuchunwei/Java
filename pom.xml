@@ -28,10 +28,17 @@
             <version>1.21</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.jmockit</groupId>
             <artifactId>jmockit</artifactId>
             <version>1.21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcomponents-client</artifactId>
+            <version>4.3</version>
         </dependency>
 
         <dependency>
