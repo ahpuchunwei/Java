@@ -11,7 +11,7 @@ import org.apache.commons.httpclient.methods.*;
 public class HttpClientTest {
     public static void main(String[] args) throws IOException {
         HttpClient client = new HttpClient();
-        client.getHostConfiguration().setHost( "www.imobile.com.cn" , 80, "http" );
+        client.getHostConfiguration().setHost( "www.alibaba.com" , 80, "http" );
         HttpMethod method = getPostMethod();    // 使用 POST 方式提交数据
         client.executeMethod(method);   //打印服务器返回的状态
         System.out.println(method.getStatusLine());   //打印结果页面
