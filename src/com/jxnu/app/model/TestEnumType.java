@@ -5,12 +5,15 @@ package com.jxnu.app.model;
  */
 public enum  TestEnumType {
 
-    /**
-     * test1
-     */
-    test1,
-    /**
-     * test2
-     */
-    test2;
+    Test("test");
+
+    private String value;
+
+    private TestEnumType(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return this.value;
+    }
 }
