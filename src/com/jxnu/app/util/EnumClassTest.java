@@ -7,6 +7,6 @@ import com.jxnu.app.model.TestEnumType;
  */
 public class EnumClassTest {
     public static void main(String[] args) throws Exception{
-        System.out.println(TestEnumType.test1);
+        System.out.println(TestEnumType.Test);
     }
 }
