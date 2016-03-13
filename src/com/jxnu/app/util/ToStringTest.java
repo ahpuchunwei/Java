@@ -13,20 +13,8 @@ public class ToStringTest {
         System.out.println(s2);
 
         User user = new User();
-        user.username = "ahpuchunwei";
-        user.password= "1234";
 
         System.out.print(user);
 
     }
-}
-
-class User extends Object{
-    String username;
-    String password;
-
-    public String toString() {
-        return "ahpuchunwei" +"testToString" +"1234";
-    }
-
 }
