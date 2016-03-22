@@ -27,19 +27,19 @@ InterfaceToMock mockInstance = new MockUp<InterfaceToMock>()
     Assert.assertEquals(0, mockInstance.method2());
 }
 
-@Test 
-public void test2() 
-{ 
-    InterfaceToMock mockInstance = new MockUp<InterfaceToMock>()
-{ 
-// 需要使用@Mock标记,否则jmockit不会处理; 
-//而且方法的签名必须与接口中方法签名一致，否则jmockit会报错 
-public String method1() 
-{ 
-return "beMocked"; 
-}
-}.getMockInstance();
-Assert.assertNotNull(mockInstance); 
-Assert.assertEquals(null, mockInstance.method1());
-} 
-}
+@Test
+public void test2()
+        {
+        InterfaceToMock mockInstance = new MockUp<InterfaceToMock>()
+        {
+// 需要使用@Mock标记,否则jmockit不会处理;
+//而且方法的签名必须与接口中方法签名一致，否则jmockit会报错
+public String method1()
+        {
+        return "beMocked";
+        }
+        }.getMockInstance();
+        Assert.assertNotNull(mockInstance);
+        Assert.assertEquals(null, mockInstance.method1());
+        }
+        }
