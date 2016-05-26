@@ -1,5 +1,8 @@
 package com.jxnu.app.util;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 public class JDBCUnit {
 
     //表示数据库的连接对象
